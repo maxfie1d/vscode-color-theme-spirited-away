@@ -1,0 +1,35 @@
+{
+    "name": "vscode-color-theme-spirited-away",
+    "displayName": "Spirited Away Color Theme",
+    "description": "Color theme for VSCode inspired by Spirited Away",
+    "version": "0.0.1",
+    "publisher": "Maxfield Walker",
+    "galleryBanner": {
+        "color": "#000",
+        "theme": "dark"
+    },
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MaxfieldWalker/vscode-color-theme-spirited-away"
+    },
+    "bugs": {
+        "url": "https://github.com/MaxfieldWalker/vscode-color-theme-spirited-away/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Spirited Away",
+                "uiTheme": "vs-dark",
+                "path": "./themes/spirited-away-color-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,263 @@
+{
+    "name": "Spirited Away",
+    "tokenColors": [
+        {
+            "settings": {
+                "background": "#151515",
+                "foreground": "#CFCFCF"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#6d966c"
+            }
+        },
+        {
+            "name": "String",
+            "scope": [
+                "string",
+                "constant.character.escape.ts"
+            ],
+            "settings": {
+                "foreground": "#e7ab65"
+            }
+        },
+        {
+            "name": "Regex",
+            "scope": [
+                "constant.other.character-class.regexp",
+                "constant.other.character-class.set.regexp",
+                "constant.character.escape.backslash.regexp"
+            ],
+            "settings": {
+                "foreground": "#e7ab65"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": [
+                "constant.numeric",
+                "keyword.operator.arithmetic"
+            ],
+            "settings": {
+                "foreground": "#AFC563"
+            }
+        },
+        {
+            "name": "Built-in constant. e.g. 'undefined', 'true', 'false'",
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#5cafdf"
+            }
+        },
+        {
+            "name": "Keyword. e.g. 'export', 'return'",
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#EC5151"
+            }
+        },
+        {
+            "name": "Storage. e.g. '=', '<<'",
+            "scope": "storage",
+            "settings": {
+                "foreground": "#CFCFCF"
+            }
+        },
+        {
+            "name": "Storage type. e.g. 'function', 'let', 'const'",
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "#5cafdf"
+            }
+        },
+        {
+            "name": "Class name. e.g. 'Map', Action<'T'>",
+            "scope": [
+                "entity.name.class",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#EC5151"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#d17e66"
+            }
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "settings": {
+                "foreground": "#CFCFCF"
+            }
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "#CFCFCF"
+            }
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#449cc0"
+            }
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#449cc0"
+            }
+        },
+        {
+            "name": "Property",
+            "scope": [
+                "support.variable.property",
+                "variable.property"
+            ],
+            "settings": {
+                "foreground": "#449cc0"
+            }
+        },
+        {
+            "name": "Library class/type. e.g. 'string', 'number'",
+            "scope": [
+                "support.type",
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "#EC5151"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "e.g. name':' string",
+            "scope": "keyword.operator.type.annotation",
+            "settings": {
+                "foreground": "#505050"
+            }
+        }
+    ],
+    "colors": {
+        // Base Colors
+
+        // 入力ボックスの背景
+        "inputBoxBackground": "#222222",
+        // 入力ボックスのアクティブ時のボーダー
+        "inputBoxActiveOptionBorder": "#EC5151",
+
+        // ドロップダウンの背景
+        "dropdownBackground": "#151515",
+
+        // エディタの背景
+        "editorBackground": "#151515",
+        "editorForeground": "#CFCFCF",
+
+        // カーソル
+        "editorCursor": "#BD3538",
+
+        // 空白
+        "editorWhitespaces": "#505050",
+
+        // 行の強調表示
+        "editorLineHighlight": "#222222",
+
+        // 選択
+        "editorSelection": "#CFCFCF20",
+        "editorInactiveSelection": "#CFCFCF18",
+
+        // インデントガイド
+        "editorIndentGuides": "#505050",
+
+        // ホバー表示の背景
+        "editorHoverBackground": "#000000",
+        // ホバー表示のボーダー
+        "editorHoverBorder": "#505050",
+
+        "peekViewResultsBackground": "#000000",
+        "peekViewResultsSelectionBackground": "#EC5151",
+        "peekViewEditorBackground": "#151515",
+        "peekViewTitleBackground": "#000000",
+        "peekViewBorder": "#505050",
+        "peekViewEditorMatchHighlight": "#AFC56350",
+
+        // 行番号
+        "editorLineNumbers": "#505050",
+
+        // 検索ボックスの背景色
+         "editorFindWidgetBackground": "#000000",
+         "editorFindMatch": "#CFCFCF50",
+         "editorFindMatchHighlight": "#CFCFCF30",
+         "editorFindRangeHighlight": "#000000",
+
+
+        // タブコンテナの背景
+        "tabsContainerBackground": "#151515",
+        // タブのボーダー
+        "tabBorder": "#000000",
+        // アクティブなタブの背景
+        "activeTabBackground": "#000000",
+        // アクティブでないタブの背景
+        "inactiveTabBackground": "#222222",
+
+
+        // エディタグループのボーダー
+        "editorGroupBorder": "#000000",
+        // エディタグループの背景
+        "editorGroupBackground": "#151515",
+
+        // エディターにファイルなどをドラッグアンドドロップした時の背景
+        "editorDragAndDropBackground": "#CFCFCF20",
+
+        // アクティビティバーにファイルなどをドラッグアンドドロップした時の背景
+        "activityBarDragAndDropBackground": "#CFCFCF20",
+
+        // サイドバーの左右のボーダー
+        "editorSideBySideBorder": "#000000",
+
+        // パネルの上側のボーダー
+        "panelTopBorder": "#000000",
+
+        // ステータスバーの背景
+        "statusBarBackground": "#EC5151",
+        // ステータスバーのWorkspaceが無い場合の背景
+        "statusBarNoFolderBackground": "#151515",
+        // ステータスバーのデバッグ中の背景
+        "statusBarDebuggingBackground": "#BD3538",
+
+
+        // デバッグツールバーの背景
+        "debugToolBarBackground": "#000000",
+
+        // アクティビティバーの背景
+        "activityBarBackground": "#151515",
+
+        // アクティビティバーのバッジの背景
+        "activityBadgeBackground": "#EC5151",
+
+        // サイドバーの背景
+        "sideBarBackground": "#000000",
+
+        // タイトルバーのアクティブ時の背景
+        "titleBarActiveBackground": "#000000",
+        // タイトルバーの非アクティビティ時の背景
+        "titleBarInactiveBackground": "#151515"
+    }
+}
