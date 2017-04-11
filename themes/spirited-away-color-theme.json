@@ -153,6 +153,55 @@
             "settings": {
                 "foreground": "#505050"
             }
+        },
+        {
+            "name": "Markdown header",
+            "scope": "markup.heading",
+            "settings": {
+                "foreground": "#EC5151"
+            }
+        },
+        {
+            "name": "Markdown bold",
+            "scope": "markup.bold",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#5cafdf"
+            }
+        },
+        {
+            "name": "Markdown list",
+            "scope": "beginning.punctuation.definition.list",
+            "settings": {
+                "foreground": "#EC5151"
+            }
+        },
+        {
+            "name": "Markdown link",
+            "scope": "markup.underline.link",
+            "settings": {
+                "foreground": "#449cc0"
+            }
+        },
+        {
+            "name": "Markdown inline code",
+            "scope": [
+                "markup.inline.raw",
+                "punctuation.definition.raw"
+            ],
+            "settings": {
+                "foreground": "#5cafdf"
+            }
+        },
+        {
+            "name": "Markdown code block",
+            "scope": [
+                "punctuation.definition.markdown",
+                "fenced_code.block.language"
+            ],
+            "settings": {
+                "foreground": "#d17e66"
+            }
         }
     ],
     "colors": {
