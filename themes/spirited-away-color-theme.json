@@ -131,7 +131,9 @@
             "name": "Property",
             "scope": [
                 "support.variable.property",
-                "variable.property"
+                "variable.property",
+                "variable.object.property",
+                "meta.definition.property"
             ],
             "settings": {
                 "foreground": "#449cc0"
