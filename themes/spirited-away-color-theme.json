@@ -131,6 +131,15 @@
             }
         },
         {
+            "name": "Imported item",
+            "scope": [
+                "variable.other.readwrite.alias"
+            ],
+            "settings": {
+                "foreground": "#449cc0"
+            }
+        },
+        {
             "name": "Enum",
             "scope": [
                 "variable.other.enummember"
