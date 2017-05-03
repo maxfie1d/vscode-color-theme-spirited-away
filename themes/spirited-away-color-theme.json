@@ -49,7 +49,7 @@
             "name": "Built-in constant. e.g. 'undefined', 'true', 'false'",
             "scope": "constant.language",
             "settings": {
-                "foreground": "#449cc0"
+                "foreground": "#268ac3"
             }
         },
         {
@@ -70,7 +70,7 @@
             "name": "Storage modifier. e.g. 'public'",
             "scope": "storage.modifier",
             "settings": {
-                "foreground": "#449cc0"
+                "foreground": "#268ac3"
             }
         },
         {
@@ -79,14 +79,14 @@
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#449cc0"
+                "foreground": "#268ac3"
             }
         },
         {
             "name": "Storage type. e.g. 'function', 'let', 'const'",
             "scope": "storage.type",
             "settings": {
-                "foreground": "#449cc0"
+                "foreground": "#268ac3"
             }
         },
         {
@@ -214,7 +214,7 @@
             "scope": "markup.bold",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#449cc0"
+                "foreground": "#268ac3"
             }
         },
         {
@@ -238,7 +238,7 @@
                 "punctuation.definition.raw"
             ],
             "settings": {
-                "foreground": "#449cc0"
+                "foreground": "#268ac3"
             }
         },
         {
