@@ -207,6 +207,13 @@
             }
         },
         {
+            "name": "'new'",
+            "scope": "keyword.operator.new",
+            "settings": {
+                "foreground": "#268ac3"
+            }
+        },
+        {
             "name": "Markdown header",
             "scope": "markup.heading",
             "settings": {
