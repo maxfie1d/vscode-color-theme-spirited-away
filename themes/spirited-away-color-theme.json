@@ -92,6 +92,13 @@
             }
         },
         {
+            "name": "Entity name type",
+            "scope": "entity.name.type",
+            "settings": {
+                "foreground": "#EC5151"
+            }
+        },
+        {
             "name": "Function name",
             "scope": "entity.name.function",
             "settings": {
