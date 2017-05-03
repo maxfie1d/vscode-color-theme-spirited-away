@@ -37,10 +37,7 @@
         },
         {
             "name": "Number",
-            "scope": [
-                "constant.numeric",
-                "keyword.operator.arithmetic"
-            ],
+            "scope": "constant.numeric",
             "settings": {
                 "foreground": "#AFC563"
             }
