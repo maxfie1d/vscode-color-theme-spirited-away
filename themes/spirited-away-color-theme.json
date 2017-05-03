@@ -74,6 +74,15 @@
             }
         },
         {
+            "name": "'this' 'super'",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#449cc0"
+            }
+        },
+        {
             "name": "Storage type. e.g. 'function', 'let', 'const'",
             "scope": "storage.type",
             "settings": {
