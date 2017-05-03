@@ -115,13 +115,6 @@
             }
         },
         {
-            "name": "Function argument",
-            "scope": "variable.parameter",
-            "settings": {
-                "foreground": "#5cafdf"
-            }
-        },
-        {
             "name": "Tag name",
             "scope": "entity.name.tag",
             "settings": {
@@ -145,12 +138,23 @@
             }
         },
         {
+            "name": "Variable",
+            "scope": [
+                "variable",
+                "variable.other.readwrite"
+            ],
+            "settings": {
+                "foreground": "#5cafdf"
+            }
+        },
+        {
             "name": "Property",
             "scope": [
                 "support.variable.property",
                 "variable.property",
                 "variable.object.property",
-                "meta.definition.property"
+                "meta.definition.property",
+                "variable.other.property"
             ],
             "settings": {
                 "foreground": "#5cafdf"
