@@ -87,6 +87,13 @@
             }
         },
         {
+            "name": "Arrow",
+            "scope": "storage.type.function.arrow",
+            "settings": {
+                "foreground": "#ef6363"
+            }
+        },
+        {
             "name": "Class name. e.g. 'Map', Action<'T'>",
             "scope": [
                 "entity.name.class",
