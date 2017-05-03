@@ -131,6 +131,15 @@
             }
         },
         {
+            "name": "Enum",
+            "scope": [
+                "variable.other.enummember"
+            ],
+            "settings": {
+                "foreground": "#AFC563"
+            }
+        },
+        {
             "name": "Library class/type. e.g. 'string', 'number'",
             "scope": [
                 "support.type",
