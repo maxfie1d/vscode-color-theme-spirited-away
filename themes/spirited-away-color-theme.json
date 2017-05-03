@@ -196,8 +196,8 @@
             }
         },
         {
-            "name": "e.g. name':' string",
-            "scope": "keyword.operator.type.annotation",
+            "name": "e.g. name':' string, string '|' number",
+            "scope": "keyword.operator.type",
             "settings": {
                 "foreground": "#CFCFCF"
             }
