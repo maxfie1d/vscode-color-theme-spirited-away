@@ -109,7 +109,7 @@
             "name": "Function argument",
             "scope": "variable.parameter",
             "settings": {
-                "foreground": "#CFCFCF"
+                "foreground": "#5cafdf"
             }
         },
         {
@@ -186,7 +186,7 @@
             "name": "e.g. name':' string",
             "scope": "keyword.operator.type.annotation",
             "settings": {
-                "foreground": "#505050"
+                "foreground": "#CFCFCF"
             }
         },
         {
