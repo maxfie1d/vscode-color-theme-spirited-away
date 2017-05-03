@@ -7,7 +7,7 @@
 Launch Visual Studio Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
 ```
-ext install vscode-theme-spirited-away
+ext install vscode-color-theme-spirited-away
 ```
 
 
