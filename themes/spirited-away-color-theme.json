@@ -67,6 +67,13 @@
             }
         },
         {
+            "name": "Storage modifier. e.g. 'public'",
+            "scope": "storage.modifier",
+            "settings": {
+                "foreground": "#5cafdf"
+            }
+        },
+        {
             "name": "Storage type. e.g. 'function', 'let', 'const'",
             "scope": "storage.type",
             "settings": {
