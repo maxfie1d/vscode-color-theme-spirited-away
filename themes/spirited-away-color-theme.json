@@ -56,7 +56,7 @@
             "name": "Keyword. e.g. 'export', 'return'",
             "scope": "keyword",
             "settings": {
-                "foreground": "#EC5151"
+                "foreground": "#ef6363"
             }
         },
         {
@@ -97,14 +97,14 @@
                 "entity.other.inherited-class"
             ],
             "settings": {
-                "foreground": "#EC5151"
+                "foreground": "#ef6363"
             }
         },
         {
             "name": "Entity name type",
             "scope": "entity.name.type",
             "settings": {
-                "foreground": "#EC5151"
+                "foreground": "#ef6363"
             }
         },
         {
@@ -185,7 +185,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#EC5151"
+                "foreground": "#ef6363"
             }
         },
         {
@@ -206,7 +206,7 @@
             "name": "Markdown header",
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#EC5151"
+                "foreground": "#ef6363"
             }
         },
         {
@@ -221,7 +221,7 @@
             "name": "Markdown list",
             "scope": "beginning.punctuation.definition.list",
             "settings": {
-                "foreground": "#EC5151"
+                "foreground": "#ef6363"
             }
         },
         {
