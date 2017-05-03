@@ -84,7 +84,8 @@
             "name": "Class name. e.g. 'Map', Action<'T'>",
             "scope": [
                 "entity.name.class",
-                "entity.name.type"
+                "entity.name.type.class",
+                "entity.other.inherited-class"
             ],
             "settings": {
                 "foreground": "#EC5151"
