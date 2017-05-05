@@ -202,8 +202,11 @@
             }
         },
         {
-            "name": "'new'",
-            "scope": "keyword.operator.new",
+            "name": "'new', 'of'",
+            "scope": [
+                "keyword.operator.new",
+                "keyword.operator.expression"
+            ],
             "settings": {
                 "foreground": "#268ac3"
             }
