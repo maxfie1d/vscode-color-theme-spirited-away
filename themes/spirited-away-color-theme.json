@@ -264,106 +264,48 @@
         }
     ],
     "colors": {
-        // Base Colors
-
-        // 入力ボックスの背景
         "input.background": "#222222",
-        // 入力ボックスのアクティブ時のボーダー
         "inputOption.activeBorder": "#EC5151",
-
-        // ドロップダウンの背景
         "dropdown.background": "#151515",
-
-        // エディタの背景
         "editor.background": "#151515",
         "editor.foreground": "#CFCFCF",
-
-        // カーソル
         "editorCursor.foreground": "#BD3538",
-
-        // 空白
         "editorWhitespace.foreground": "#505050",
-
-        // 行の強調表示
         "editor.lineHighlightBackground": "#222222",
-
-        // 選択
         "editor.selectionBackground": "#CFCFCF20",
         "editor.inactiveSelectionBackground": "#CFCFCF18",
-
-        // インデントガイド
         "editorIndentGuide.background": "#505050",
-
-        // ホバー表示の背景
         "editorHoverWidget.background": "#000000",
-        // ホバー表示のボーダー
         "editorHoverWidget.border": "#505050",
-
         "peekViewResult.background": "#000000",
         "peekViewResult.selectionBackground": "#EC5151",
         "peekViewEditor.background": "#151515",
         "peekViewTitle.background": "#000000",
         "peekView.border": "#505050",
         "peekViewEditor.matchHighlightBackground": "#AFC56350",
-
-        // 行番号
         "editorLineNumber.foreground": "#505050",
-
         "editorWidget.background": "#000000",
         "editor.findMatchBackground": "#CFCFCF50",
         "editor.findMatchHighlightBackground": "#CFCFCF30",
         "editor.findRangeHighlightBackground": "#000000",
-
-
-        // タブコンテナの背景
         "editorGroupHeader.tabsBackground": "#151515",
         "editorGroupHeader.noTabsBackground": "#151515",
-
-        // タブのボーダー
         "tab.border": "#000000",
-        // アクティブなタブの背景
         "tab.activeBackground": "#000000",
-        // アクティブでないタブの背景
         "tab.inactiveBackground": "#222222",
-
-
-        // エディタグループのボーダー
         "editorGroup.border": "#000000",
-        // エディタグループの背景
         "editorGroup.background": "#151515",
-
-        // エディターにファイルなどをドラッグアンドドロップした時の背景
         "editorGroup.dropBackground": "#CFCFCF20",
-
-        // アクティビティバーにファイルなどをドラッグアンドドロップした時の背景
         "activityBar.dropBackground": "#CFCFCF20",
-
-        // パネルの上側のボーダー
         "panel.border": "#000000",
-
-        // ステータスバーの背景
         "statusBar.background": "#EC5151",
-        // ステータスバーのWorkspaceが無い場合の背景
         "statusBar.noFolderBackground": "#151515",
-        // ステータスバーのデバッグ中の背景
         "statusBar.debuggingBackground": "#BD3538",
-
-
-        // デバッグツールバーの背景
         "debugToolBar.background": "#000000",
-
-        // アクティビティバーの背景
         "activityBar.background": "#151515",
-
-        // アクティビティバーのバッジの背景
         "activityBarBadge.background": "#EC5151",
-
-        // サイドバーの背景
         "sideBar.background": "#000000",
-
-        // タイトルバーのアクティブ時の背景
         "titleBar.activeBackground": "#000000",
-        // タイトルバーの非アクティビティ時の背景
         "titleBar.inactiveBackground": "#151515"
     }
 }
