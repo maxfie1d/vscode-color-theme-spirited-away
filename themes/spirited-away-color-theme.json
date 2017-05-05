@@ -118,7 +118,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#d17e66"
+                "foreground": "#da846b"
             }
         },
         {
@@ -257,7 +257,7 @@
                 "fenced_code.block.language"
             ],
             "settings": {
-                "foreground": "#d17e66"
+                "foreground": "#da846b"
             }
         }
     ],
