@@ -113,7 +113,10 @@
         },
         {
             "name": "Function name",
-            "scope": "entity.name.function",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
             "settings": {
                 "foreground": "#d17e66"
             }
@@ -123,14 +126,6 @@
             "scope": "entity.name.tag",
             "settings": {
                 "foreground": "#CFCFCF"
-            }
-        },
-        {
-            "name": "Library function",
-            "scope": "support.function",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#5cafdf"
             }
         },
         {
@@ -148,7 +143,7 @@
                 "variable.other.readwrite"
             ],
             "settings": {
-                "foreground": "#5cafdf"
+                "foreground": "#CFCFCF"
             }
         },
         {
@@ -161,7 +156,7 @@
                 "variable.other.property"
             ],
             "settings": {
-                "foreground": "#5cafdf"
+                "foreground": "#CFCFCF"
             }
         },
         {
@@ -170,7 +165,7 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "#5cafdf"
+                "foreground": "#CFCFCF"
             }
         },
         {
