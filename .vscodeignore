@@ -1,0 +1,11 @@
+.vscode/**
+images/**
+samples/**
+.gitignore
+.gitattributes
+dist/test/**
+test/**
+src/**
+themes/**
+tsconfig.json
+tslint.json
