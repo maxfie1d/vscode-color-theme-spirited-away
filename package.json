@@ -36,6 +36,6 @@
       "build": "vscode-color-theme-template ./themes/spirited-away.json ./out/out.json"
   },
   "devDependencies": {
-    "@maxfield/vscode-color-theme-template": "0.0.2"
+    "@maxfield/vscode-color-theme-template": "0.1.0"
   }
 }

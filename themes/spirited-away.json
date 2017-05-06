@@ -407,10 +407,10 @@
     },
     "colorPalette": {
         // Color
-        "$border": "#383838",
-        "$defaultBackground": "#151515",
+        "$gray": "#383838",
+        "$dark": "#151515",
         "$lightDark": "#222",
-        "$defaultForeground": "#CFCFCF",
+        "$lightGray": "#CFCFCF",
         "$green": "#6d966c",
         "$orange": "#da846b",
         "$lightOrange": "#e7ab65",
@@ -432,5 +432,10 @@
         "@60": "60",
         "@mid": "80",
         "@B0": "B0"
+    },
+    "alias": {
+        "$border": "$gray",
+        "$defaultBackground": "$dark",
+        "$defaultForeground": "$lightGray"
     }
 }
