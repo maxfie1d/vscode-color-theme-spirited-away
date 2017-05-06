@@ -36,6 +36,13 @@
             }
         },
         {
+            "name": "Template expression. e.g. ` '${' '}' `",
+            "scope": "punctuation.definition.template-expression",
+            "settings": {
+                "foreground": "$lightPink"
+            }
+        },
+        {
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
