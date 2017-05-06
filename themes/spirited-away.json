@@ -400,7 +400,7 @@
     },
     "colorPalette": {
         // Color
-        "$border": "#505050",
+        "$border": "#383838",
         "$defaultBackground": "#151515",
         "$lightDark": "#222",
         "$defaultForeground": "#CFCFCF",
