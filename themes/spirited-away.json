@@ -3,8 +3,8 @@
     "tokenColors": [
         {
             "settings": {
-                "background": "$defaultBackground",
-                "foreground": "$defaultForeground"
+                "background": "$$defaultBackground",
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -67,7 +67,7 @@
             "name": "Storage. e.g. '=', '<<'",
             "scope": "storage",
             "settings": {
-                "foreground": "$defaultForeground"
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -132,14 +132,14 @@
             "name": "Tag name",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "$defaultForeground"
+                "foreground": "$$defaultForeground"
             }
         },
         {
             "name": "Library constant",
             "scope": "support.constant",
             "settings": {
-                "foreground": "$defaultForeground"
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -149,7 +149,7 @@
                 "variable.other.readwrite"
             ],
             "settings": {
-                "foreground": "$defaultForeground"
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -162,7 +162,7 @@
                 "variable.other.property"
             ],
             "settings": {
-                "foreground": "$defaultForeground"
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -171,7 +171,7 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "$defaultForeground"
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -204,7 +204,7 @@
             "name": "e.g. name':' string, string '|' number",
             "scope": "keyword.operator.type",
             "settings": {
-                "foreground": "$defaultForeground"
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -268,9 +268,9 @@
         }
     ],
     "colors": {
-        "activityBar.background": "$defaultBackground",
-        "activityBar.dropBackground": "$defaultForeground@20",
-        "activityBar.foreground": "$defaultForeground",
+        "activityBar.background": "$$defaultBackground",
+        "activityBar.dropBackground": "$$defaultForeground@20",
+        "activityBar.foreground": "$$defaultForeground",
         "activityBarBadge.background": "$pink",
         "activityBarBadge.foreground": "$white",
         "button.background": "$pink",
@@ -279,55 +279,55 @@
         // "contrastActiveBorder": "$pink",
         // "contrastBorder": "$white",
         "debugExceptionWidget.background": "$black",
-        "debugExceptionWidget.border": "$border",
+        "debugExceptionWidget.border": "$$border",
         "debugToolBar.background": "$black",
         "diffEditor.insertedTextBackground": "$green@40",
         // "diffEditor.insertedTextBorder": "",
         "diffEditor.removedTextBackground": "$red@40",
         // "diffEditor.removedTextBorder": "",
         "dropdown.background": "$black",
-        "dropdown.border": "$border",
-        "dropdown.foreground": "$defaultForeground",
-        "editor.background": "$defaultBackground",
-        "editor.findMatchBackground": "$defaultForeground@50",
-        "editor.findMatchHighlightBackground": "$defaultForeground@30",
+        "dropdown.border": "$$border",
+        "dropdown.foreground": "$$defaultForeground",
+        "editor.background": "$$defaultBackground",
+        "editor.findMatchBackground": "$$defaultForeground@50",
+        "editor.findMatchHighlightBackground": "$$defaultForeground@30",
         "editor.findRangeHighlightBackground": "$black",
-        "editor.foreground": "$defaultForeground",
-        "editor.hoverHighlightBackground": "$defaultForeground@1B",
-        "editor.inactiveSelectionBackground": "$defaultForeground@1B",
+        "editor.foreground": "$$defaultForeground",
+        "editor.hoverHighlightBackground": "$$defaultForeground@1B",
+        "editor.inactiveSelectionBackground": "$$defaultForeground@1B",
         "editor.lineHighlightBackground": "$lightDark",
         // "editor.lineHighlightBorder": "",
-        "editor.rangeHighlightBackground": "$defaultForeground@28",
-        "editor.selectionBackground": "$defaultForeground@28",
-        "editor.selectionHighlightBackground": "$defaultForeground@40",
-        "editor.wordHighlightBackground": "$defaultForeground@28",
+        "editor.rangeHighlightBackground": "$$defaultForeground@28",
+        "editor.selectionBackground": "$$defaultForeground@28",
+        "editor.selectionHighlightBackground": "$$defaultForeground@40",
+        "editor.wordHighlightBackground": "$$defaultForeground@28",
         "editor.wordHighlightStrongBackground": "$pink@mid",
         "editorCursor.foreground": "$red",
-        "editorGroup.background": "$defaultBackground",
+        "editorGroup.background": "$$defaultBackground",
         "editorGroup.border": "$black",
-        "editorGroup.dropBackground": "$defaultForeground@20",
-        "editorGroupHeader.noTabsBackground": "$defaultBackground",
-        "editorGroupHeader.tabsBackground": "$defaultBackground",
+        "editorGroup.dropBackground": "$$defaultForeground@20",
+        "editorGroupHeader.noTabsBackground": "$$defaultBackground",
+        "editorGroupHeader.tabsBackground": "$$defaultBackground",
         "editorHoverWidget.background": "$black",
-        "editorHoverWidget.border": "$border",
-        "editorIndentGuide.background": "$border",
-        "editorLineNumber.foreground": "$border",
+        "editorHoverWidget.border": "$$border",
+        "editorIndentGuide.background": "$$border",
+        "editorLineNumber.foreground": "$$border",
         // "editorLink.activeForeground": "",
         "editorMarkerNavigation.background": "$black",
         "editorMarkerNavigationError.background": "$red",
         "editorMarkerNavigationWarning.background": "$lightOrange",
         "editorSuggestWidget.background": "$black",
-        "editorSuggestWidget.border": "$border",
-        "editorSuggestWidget.foreground": "$defaultForeground",
+        "editorSuggestWidget.border": "$$border",
+        "editorSuggestWidget.foreground": "$$defaultForeground",
         "editorSuggestWidget.highlightForeground": "$blue",
         "editorSuggestWidget.selectedBackground": "$blue@B0",
-        "editorWhitespace.foreground": "$border",
+        "editorWhitespace.foreground": "$$border",
         "editorWidget.background": "$black",
-        "focusBorder": "$border",
+        "focusBorder": "$$border",
         "foreground": "$white",
-        "input.background": "$defaultBackground",
-        "input.border": "$border",
-        "input.foreground": "$defaultForeground",
+        "input.background": "$$defaultBackground",
+        "input.border": "$$border",
+        "input.foreground": "$$defaultForeground",
         "inputOption.activeBorder": "$pink",
         "inputValidation.errorBackground": "$pink",
         "inputValidation.errorBorder": "$pink",
@@ -337,52 +337,52 @@
         "inputValidation.warningBorder": "$lightOrange",
         "list.activeSelectionBackground": "$blue",
         "list.activeSelectionForeground": "$white",
-        "list.dropBackground": "$defaultForeground@20",
+        "list.dropBackground": "$$defaultForeground@20",
         "list.focusBackground": "$blue@B0",
         "list.highlightForeground": "$blue",
         "list.hoverBackground": "$blue@mid",
-        "list.inactiveSelectionBackground": "$defaultForeground@60",
+        "list.inactiveSelectionBackground": "$$defaultForeground@60",
         "notification.background": "$black",
         "notification.foreground": "$white",
-        "panel.background": "$defaultBackground",
-        "panel.border": "$border",
-        "panelTitle.activeBorder": "$border",
+        "panel.background": "$$defaultBackground",
+        "panel.border": "$$border",
+        "panelTitle.activeBorder": "$$border",
         "panelTitle.activeForeground": "$white",
-        "panelTitle.inactiveForeground": "$defaultForeground",
-        "peekView.border": "$border",
-        "peekViewEditor.background": "$defaultBackground",
-        "peekViewEditor.matchHighlightBackground": "$defaultForeground@50",
+        "panelTitle.inactiveForeground": "$$defaultForeground",
+        "peekView.border": "$$border",
+        "peekViewEditor.background": "$$defaultBackground",
+        "peekViewEditor.matchHighlightBackground": "$$defaultForeground@50",
         "peekViewResult.background": "$black",
         "peekViewResult.fileForeground": "$white",
-        "peekViewResult.lineForeground": "$defaultForeground",
-        "peekViewResult.matchHighlightBackground": "$defaultForeground@50",
+        "peekViewResult.lineForeground": "$$defaultForeground",
+        "peekViewResult.matchHighlightBackground": "$$defaultForeground@50",
         "peekViewResult.selectionBackground": "$blue@B0",
         "peekViewResult.selectionForeground": "$white",
         "peekViewTitle.background": "$black",
-        "peekViewTitleDescription.foreground": "$defaultForeground",
+        "peekViewTitleDescription.foreground": "$$defaultForeground",
         "peekViewTitleLabel.foreground": "$white",
-        "pickerGroup.border": "$border",
+        "pickerGroup.border": "$$border",
         "pickerGroup.foreground": "$lightPink",
-        "scrollbar.shadow": "$defaultForeground@1B",
-        "scrollbarSlider.activeBackground": "$defaultForeground@60",
-        "scrollbarSlider.background": "$defaultForeground@28",
-        "scrollbarSlider.hoverBackground": "$defaultForeground@40",
+        "scrollbar.shadow": "$$defaultForeground@1B",
+        "scrollbarSlider.activeBackground": "$$defaultForeground@60",
+        "scrollbarSlider.background": "$$defaultForeground@28",
+        "scrollbarSlider.hoverBackground": "$$defaultForeground@40",
         "sideBar.background": "$black",
         "sideBarSectionHeader.background": "$black",
-        "sideBarTitle.foreground": "$defaultForeground",
+        "sideBarTitle.foreground": "$$defaultForeground",
         "statusBar.background": "$pink",
         "statusBar.debuggingBackground": "$red",
         "statusBar.foreground": "$white",
-        "statusBar.noFolderBackground": "$defaultBackground",
+        "statusBar.noFolderBackground": "$$defaultBackground",
         // "statusBarItem.activeBackground": "",
         // "statusBarItem.hoverBackground": "",
         // "statusBarItem.prominentBackground": "",
         // "statusBarItem.prominentHoverBackground": "",
         "tab.activeBackground": "$black",
         "tab.activeForeground": "$white",
-        "tab.border": "$border@mid",
+        "tab.border": "$$border@mid",
         "tab.inactiveBackground": "$lightDark",
-        "tab.inactiveForeground": "$defaultForeground",
+        "tab.inactiveForeground": "$$defaultForeground",
         // "terminal.ansiBlack": "",
         // "terminal.ansiBlue": "",
         // "terminal.ansiBrightBlack": "",
@@ -401,8 +401,8 @@
         // "terminal.ansiYellow": "",
         "titleBar.activeBackground": "$black",
         "titleBar.activeForeground": "$white",
-        "titleBar.inactiveBackground": "$defaultBackground",
-        "titleBar.inactiveForeground": "$defaultForeground"
+        "titleBar.inactiveBackground": "$$defaultBackground",
+        "titleBar.inactiveForeground": "$$defaultForeground"
         // "widget.shadow": ""
     },
     "colorPalette": {
@@ -434,8 +434,8 @@
         "@B0": "B0"
     },
     "alias": {
-        "$border": "$gray",
-        "$defaultBackground": "$dark",
-        "$defaultForeground": "$lightGray"
+        "$$border": "$gray",
+        "$$defaultBackground": "$dark",
+        "$$defaultForeground": "$lightGray"
     }
 }
