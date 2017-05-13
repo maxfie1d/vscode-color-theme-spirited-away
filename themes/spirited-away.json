@@ -309,6 +309,13 @@
             "settings": {
                 "foreground": "$orange"
             }
+        },
+        {
+            "name": "Markdown quote",
+            "scope": "beginning.punctuation.definition.quote",
+            "settings": {
+                "foreground": "$green"
+            }
         }
     ],
     "colors": {
