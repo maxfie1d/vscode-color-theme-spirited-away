@@ -126,7 +126,8 @@
                 "entity.name.class",
                 "entity.name.type.class",
                 "entity.other.inherited-class",
-                "storage.type.generic"
+                "storage.type.generic",
+                "storage.class"
             ],
             "settings": {
                 "foreground": "$lightPink"
@@ -220,7 +221,8 @@
             "name": "Library class/type. e.g. 'string', 'number'",
             "scope": [
                 "support.type",
-                "support.class"
+                "support.class",
+                "storage.type.core"
             ],
             "settings": {
                 "foreground": "$lightPink"
