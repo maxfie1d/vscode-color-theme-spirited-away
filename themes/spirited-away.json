@@ -311,7 +311,7 @@
         "editorHoverWidget.background": "$black",
         "editorHoverWidget.border": "$$border",
         "editorIndentGuide.background": "$$border",
-        "editorLineNumber.foreground": "$$border",
+        "editorLineNumber.foreground": "$$defaultForeground@50",
         // "editorLink.activeForeground": "",
         "editorMarkerNavigation.background": "$black",
         "editorMarkerNavigationError.background": "$red",
