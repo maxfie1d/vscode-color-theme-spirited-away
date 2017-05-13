@@ -78,6 +78,26 @@
             }
         },
         {
+            "name": "Imported items",
+            "scope": "storage.modifier.import",
+            "settings": {
+                "foreground": "$lightPink"
+            }
+        },
+        {
+            "name": "'(' ')' ';' '{'",
+            "scope": [
+                "punctuation.definition.method-parameters",
+                "punctuation.definition.seperator.parameter",
+                "punctuation.terminator",
+                "punctuation.section.method",
+                "meta.method.identifier"
+            ],
+            "settings": {
+                "foreground": "$$defaultForeground"
+            }
+        },
+        {
             "name": "'this' 'super'",
             "scope": [
                 "variable.language"
@@ -105,7 +125,8 @@
             "scope": [
                 "entity.name.class",
                 "entity.name.type.class",
-                "entity.other.inherited-class"
+                "entity.other.inherited-class",
+                "storage.type.generic"
             ],
             "settings": {
                 "foreground": "$lightPink"
@@ -119,13 +140,24 @@
             }
         },
         {
-            "name": "Function name",
+            "name": "Function and method name",
             "scope": [
                 "entity.name.function",
-                "support.function"
+                "support.function",
+                "meta.method"
             ],
             "settings": {
                 "foreground": "$orange"
+            }
+        },
+        {
+            "name": "Method call and body",
+            "scope": [
+                "meta.method-call",
+                "meta.method.body"
+            ],
+            "settings": {
+                "foreground": "$$defaultForeground"
             }
         },
         {
@@ -146,7 +178,8 @@
             "name": "Variable",
             "scope": [
                 "variable",
-                "variable.other.readwrite"
+                "variable.other.readwrite",
+                "meta.definition.variable.name"
             ],
             "settings": {
                 "foreground": "$$defaultForeground"
@@ -208,13 +241,22 @@
             }
         },
         {
-            "name": "'new', 'of'",
+            "name": "'new', 'of', and other keywords",
             "scope": [
                 "keyword.operator.new",
-                "keyword.operator.expression"
+                "keyword.control.new",
+                "keyword.operator.expression",
+                "keyword.other"
             ],
             "settings": {
                 "foreground": "$blue"
+            }
+        },
+        {
+            "name": "Dereference operator ('.')",
+            "scope": "keyword.operator.dereference",
+            "settings": {
+                "foreground": "$$defaultForeground"
             }
         },
         {
