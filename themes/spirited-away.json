@@ -85,13 +85,18 @@
             }
         },
         {
-            "name": "'(' ')' ';' '{'",
+            "name": "'(' ')' ';' '{' '}' '[' ']'",
             "scope": [
                 "punctuation.definition.method-parameters",
                 "punctuation.definition.seperator.parameter",
+                "punctuation.definition.parameters",
+                "punctuation.definition.block",
+                "punctuation.separator.comma",
                 "punctuation.terminator",
                 "punctuation.section.method",
-                "meta.method.identifier"
+                "meta.method.identifier",
+                "meta.brace.round",
+                "meta.brace.square"
             ],
             "settings": {
                 "foreground": "$$defaultForeground"
