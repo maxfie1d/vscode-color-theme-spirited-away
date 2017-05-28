@@ -103,6 +103,20 @@
             }
         },
         {
+            "name": "':' switch-case",
+            "scope": "punctuation.definition.section.case-statement",
+            "settings": {
+                "foreground": "$$defaultForeground"
+            }
+        },
+        {
+            "name": "'.' method accessor",
+            "scope": "punctuation.accessor",
+            "settings": {
+                "foreground": "$$defaultForeground"
+            }
+        },
+        {
             "name": "'this' 'super'",
             "scope": [
                 "variable.language"
