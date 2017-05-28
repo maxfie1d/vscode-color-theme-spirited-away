@@ -188,6 +188,13 @@
             }
         },
         {
+            "name": "Tag name (YAML)",
+            "scope": "entity.name.tag.yaml",
+            "settings": {
+                "foreground": "$lightPink"
+            }
+        },
+        {
             "name": "Library constant",
             "scope": "support.constant",
             "settings": {
