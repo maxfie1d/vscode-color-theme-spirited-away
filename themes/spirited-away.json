@@ -296,6 +296,14 @@
             }
         },
         {
+            "name": "Markdown italic",
+            "scope": "markup.italic",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "$blue"
+            }
+        },
+        {
             "name": "Markdown list",
             "scope": "beginning.punctuation.definition.list",
             "settings": {
