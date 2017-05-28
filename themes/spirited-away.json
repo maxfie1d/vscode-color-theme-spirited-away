@@ -195,6 +195,24 @@
             }
         },
         {
+            "name": "Tag name (HTML)",
+            "scope": [
+                "entity.name.tag.inline.any.html",
+                "entity.name.tag.html",
+                "entity.name.tag.structure.any.html"
+            ],
+            "settings": {
+                "foreground": "$lightPink"
+            }
+        },
+        {
+            "name": "DOCTYPE (HTML)",
+            "scope": "meta.tag.sgml.doctype.html",
+            "settings": {
+                "foreground": "$blue"
+            }
+        },
+        {
             "name": "Library constant",
             "scope": "support.constant",
             "settings": {
