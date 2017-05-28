@@ -164,7 +164,8 @@
             "scope": [
                 "entity.name.function",
                 "support.function",
-                "meta.method"
+                "meta.method",
+                "meta.function-call.generic"
             ],
             "settings": {
                 "foreground": "$orange"
