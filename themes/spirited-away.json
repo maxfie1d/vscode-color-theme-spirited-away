@@ -200,7 +200,8 @@
             "scope": [
                 "entity.name.tag.inline.any.html",
                 "entity.name.tag.html",
-                "entity.name.tag.structure.any.html"
+                "entity.name.tag.structure.any.html",
+                "entity.name.tag.block.any.html"
             ],
             "settings": {
                 "foreground": "$lightPink"
