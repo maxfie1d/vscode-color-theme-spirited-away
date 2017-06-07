@@ -182,6 +182,13 @@
             }
         },
         {
+            "name": "Tag definition '< />'",
+            "scope": "punctuation.definition.tag",
+            "settings": {
+                "foreground": "$trivialGray"
+            }
+        },
+        {
             "name": "Tag name",
             "scope": "entity.name.tag",
             "settings": {
@@ -503,6 +510,7 @@
     "colorPalette": {
         // Color
         "$gray": "#383838",
+        "$trivialGray": "#777",
         "$dark": "#151515",
         "$lightDark": "#222",
         "$lightGray": "#CFCFCF",
