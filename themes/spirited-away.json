@@ -185,26 +185,16 @@
             "name": "Tag name",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "$$defaultForeground"
-            }
-        },
-        {
-            "name": "Tag name (YAML)",
-            "scope": "entity.name.tag.yaml",
-            "settings": {
                 "foreground": "$lightPink"
             }
         },
         {
-            "name": "Tag name (HTML)",
+            "name": "Attribute name",
             "scope": [
-                "entity.name.tag.inline.any.html",
-                "entity.name.tag.html",
-                "entity.name.tag.structure.any.html",
-                "entity.name.tag.block.any.html"
+                "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "$lightPink"
+                "foreground": "$$defaultForeground"
             }
         },
         {
