@@ -124,12 +124,13 @@
             }
         },
         {
-            "name": "'(' ')' ';' '{' '}' '[' ']' '::'",
+            "name": "'(' ')' ';' '{' '}' '[' ']' '<' '>' '::'",
             "scope": [
                 "punctuation.definition.method-parameters",
                 "punctuation.definition.seperator.parameter",
                 "punctuation.definition.parameters",
                 "punctuation.definition.block",
+                "punctuation.definition.typeparameters",
                 "punctuation.separator.comma",
                 "punctuation.terminator",
                 "punctuation.section.method",
