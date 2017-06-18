@@ -129,25 +129,27 @@
                 "punctuation.definition.method-parameters",
                 "punctuation.definition.seperator.parameter",
                 "punctuation.definition.parameters",
+                "punctuation.section",
                 "punctuation.definition.block",
                 "punctuation.definition.typeparameters",
+                "punctuation.definition.begin.bracket.square",
+                "punctuation.definition.end.bracket.square",
                 "punctuation.separator.comma",
                 "punctuation.terminator",
-                "punctuation.section.method",
                 "meta.method.identifier",
                 "meta.brace.round",
                 "meta.brace.square",
                 "punctuation.definition.entity"
             ],
             "settings": {
-                "foreground": "$$defaultForeground"
+                "foreground": "$$punctuationColor"
             }
         },
         {
             "name": "':' switch-case",
             "scope": "punctuation.definition.section.case-statement",
             "settings": {
-                "foreground": "$$defaultForeground"
+                "foreground": "$$punctuationColor"
             }
         },
         {
@@ -158,7 +160,14 @@
                 "punctuation.separator.dot-access"
             ],
             "settings": {
-                "foreground": "$$defaultForeground"
+                "foreground": "$$punctuationColor"
+            }
+        },
+        {
+            "name": "Tag definition '< />'",
+            "scope": "punctuation.definition.tag",
+            "settings": {
+                "foreground": "$trivialGray"
             }
         },
         {
@@ -237,13 +246,6 @@
             ],
             "settings": {
                 "foreground": "$$defaultForeground"
-            }
-        },
-        {
-            "name": "Tag definition '< />'",
-            "scope": "punctuation.definition.tag",
-            "settings": {
-                "foreground": "$trivialGray"
             }
         },
         {
@@ -632,6 +634,7 @@
     "alias": {
         "$$border": "$gray",
         "$$defaultBackground": "$dark",
-        "$$defaultForeground": "$lightGray"
+        "$$defaultForeground": "$lightGray",
+        "$$punctuationColor": "#888"
     }
 }
