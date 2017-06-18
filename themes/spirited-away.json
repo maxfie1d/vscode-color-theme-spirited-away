@@ -57,6 +57,36 @@
             }
         },
         {
+            "name": "'bold', 'italic', 'auto' (CSS)",
+            "scope": [
+                "support.constant.property-value"
+            ],
+            "settings": {
+                "foreground": "$lightOrange"
+            }
+        },
+        {
+            "name": "Colors (CSS)",
+            "scope": [
+                "constant.other.color.rgb-value.hex",
+                "support.constant.color.w3c-standard-color-name",
+                "support.constant.color.w3c-extended-color-name"
+            ],
+            "settings": {
+                "foreground": "$lightOrange"
+            }
+        },
+        {
+            "name": "Pseudo class, element (CSS)",
+            "scope": [
+                "entity.other.attribute-name.pseudo-element",
+                "entity.other.attribute-name.pseudo-class"
+            ],
+            "settings": {
+                "foreground": "$purple"
+            }
+        },
+        {
             "name": "Keyword. e.g. 'export', 'return'",
             "scope": "keyword",
             "settings": {
@@ -85,7 +115,7 @@
             }
         },
         {
-            "name": "'(' ')' ';' '{' '}' '[' ']'",
+            "name": "'(' ')' ';' '{' '}' '[' ']' '::'",
             "scope": [
                 "punctuation.definition.method-parameters",
                 "punctuation.definition.seperator.parameter",
@@ -96,7 +126,8 @@
                 "punctuation.section.method",
                 "meta.method.identifier",
                 "meta.brace.round",
-                "meta.brace.square"
+                "meta.brace.square",
+                "punctuation.definition.entity"
             ],
             "settings": {
                 "foreground": "$$defaultForeground"
@@ -541,7 +572,7 @@
         "$pink": "#EC5151",
         "$lightPink": "#ef6363",
         "$red": "#BD3538",
-        "$purple": "#a46db3",
+        "$purple": "#9669a2",
         "$white": "#FFF",
         "$black": "#000",
         // Alpha
