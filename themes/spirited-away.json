@@ -87,6 +87,15 @@
             }
         },
         {
+            "name": "@import, @extend, @mixin (SCSS)",
+            "scope": [
+                "keyword.control.at-rule"
+            ],
+            "settings": {
+                "foreground": "$purple"
+            }
+        },
+        {
             "name": "Keyword. e.g. 'export', 'return'",
             "scope": "keyword",
             "settings": {
@@ -258,6 +267,13 @@
             ],
             "settings": {
                 "foreground": "$$defaultForeground"
+            }
+        },
+        {
+            "name": "Variable (SCSS)",
+            "scope": "variable.scss",
+            "settings": {
+                "foreground": "$lightBlue"
             }
         },
         {
@@ -572,7 +588,7 @@
         "$pink": "#EC5151",
         "$lightPink": "#ef6363",
         "$red": "#BD3538",
-        "$purple": "#9669a2",
+        "$purple": "#9977a2",
         "$white": "#FFF",
         "$black": "#000",
         // Alpha
