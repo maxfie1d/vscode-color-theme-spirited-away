@@ -272,6 +272,15 @@
             }
         },
         {
+            "name": "'@'param (jsdoc)",
+            "scope": [
+                "punctuation.definition.block.tag"
+            ],
+            "settings": {
+                "foreground": "$blue"
+            }
+        },
+        {
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
