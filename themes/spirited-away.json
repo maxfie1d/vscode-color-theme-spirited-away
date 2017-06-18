@@ -129,6 +129,7 @@
                 "punctuation.definition.method-parameters",
                 "punctuation.definition.seperator.parameter",
                 "punctuation.definition.parameters",
+                "punctuation.definition.arguments",
                 "punctuation.section",
                 "punctuation.definition.block",
                 "punctuation.definition.typeparameters",
@@ -148,6 +149,22 @@
         {
             "name": "':' switch-case",
             "scope": "punctuation.definition.section.case-statement",
+            "settings": {
+                "foreground": "$$punctuationColor"
+            }
+        },
+        {
+            "name": "args':' string[]",
+            "scope": "keyword.operator.type.annotation",
+            "settings": {
+                "foreground": "$$punctuationColor"
+            }
+        },
+        {
+            "name": "Separators ','",
+            "scope": [
+                "punctuation.separator"
+            ],
             "settings": {
                 "foreground": "$$punctuationColor"
             }
