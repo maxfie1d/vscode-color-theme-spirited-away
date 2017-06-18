@@ -151,8 +151,12 @@
             }
         },
         {
-            "name": "'.' method accessor",
-            "scope": "punctuation.accessor",
+            "name": "'.' method accessor, '->' pointer access",
+            "scope": [
+                "punctuation.accessor",
+                "punctuation.separator.pointer-access",
+                "punctuation.separator.dot-access"
+            ],
             "settings": {
                 "foreground": "$$defaultForeground"
             }
@@ -168,7 +172,20 @@
         },
         {
             "name": "Storage type. e.g. 'function', 'let', 'const'",
-            "scope": "storage.type",
+            "scope": [
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "$blue"
+            }
+        },
+        {
+            "name": "'regex_t' 'size_t' 'uintmax_t' (C)",
+            "scope": [
+                "support.type.posix-reserved",
+                "support.type.sys-types",
+                "support.type.stdint"
+            ],
             "settings": {
                 "foreground": "$blue"
             }
@@ -335,6 +352,15 @@
             ],
             "settings": {
                 "foreground": "$blue"
+            }
+        },
+        {
+            "name": "Macros (C)",
+            "scope": [
+                "entity.name.function.preprocessor"
+            ],
+            "settings": {
+                "foreground": "$purple"
             }
         },
         {
