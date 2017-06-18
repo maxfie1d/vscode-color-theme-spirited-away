@@ -272,6 +272,15 @@
             }
         },
         {
+            "name": "Decoratos ('@'Component)",
+            "scope": [
+                "punctuation.decorator"
+            ],
+            "settings": {
+                "foreground": "$purple"
+            }
+        },
+        {
             "name": "'@'param (jsdoc)",
             "scope": [
                 "punctuation.definition.block.tag"
@@ -532,6 +541,7 @@
         "$pink": "#EC5151",
         "$lightPink": "#ef6363",
         "$red": "#BD3538",
+        "$purple": "#a46db3",
         "$white": "#FFF",
         "$black": "#000",
         // Alpha
