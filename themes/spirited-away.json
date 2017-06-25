@@ -135,6 +135,7 @@
                 "punctuation.definition.typeparameters",
                 "punctuation.definition.begin.bracket.square",
                 "punctuation.definition.end.bracket.square",
+                "punctuation.definition.binding-pattern.object",
                 "punctuation.separator.comma",
                 "punctuation.terminator",
                 "meta.method.identifier",
