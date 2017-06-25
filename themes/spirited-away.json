@@ -18,7 +18,8 @@
             "name": "String",
             "scope": [
                 "string",
-                "constant.character.escape.ts"
+                "constant.character.escape.ts",
+                "punctuation.definition.string"
             ],
             "settings": {
                 "foreground": "$lightOrange"
