@@ -156,13 +156,6 @@
             }
         },
         {
-            "name": "args':' string[]",
-            "scope": "keyword.operator.type.annotation",
-            "settings": {
-                "foreground": "$$punctuationColor"
-            }
-        },
-        {
             "name": "Separators ','",
             "scope": [
                 "punctuation.separator"
@@ -395,7 +388,7 @@
             "name": "e.g. name':' string, string '|' number",
             "scope": "keyword.operator.type",
             "settings": {
-                "foreground": "$$defaultForeground"
+                "foreground": "$$punctuationColor"
             }
         },
         {
