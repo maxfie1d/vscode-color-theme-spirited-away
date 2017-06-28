@@ -1,6 +1,6 @@
 ## Spirited Away Color Theme
 
-![Screenshot](http://i.imgur.com/FZLCcYH.png)
+![Screenshot](https://i.imgur.com/FZLCcYH.png)
 
 
 ## Install
@@ -10,13 +10,13 @@ Launch Visual Studio Code Quick Open (Ctrl+P), paste the following command, and 
 ext install vscode-color-theme-spirited-away
 ```
 
-## Supported Language
+## Supported Languages
 
 |   | Mainly supported |
 |  ------ | :------: |
 |  TypeScript | ✅ |
 |  HTML/YAML/XML | ✅ |
-|  CSS/CSS | ✅ |
+|  CSS/SCSS | ✅ |
 |  C/C++ | ✅ |
 |  Python | ✅ |
 |  Java | ✅ |
@@ -29,4 +29,4 @@ ext install vscode-color-theme-spirited-away
 MIT
 
 
-![Spirited Away](http://i.imgur.com/tPiwWpq.jpg)
+![Spirited Away](https://i.imgur.com/tPiwWpq.jpg)
