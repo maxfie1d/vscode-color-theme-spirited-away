@@ -125,6 +125,15 @@
             }
         },
         {
+            "name": "Object keys",
+            "scope":[
+                "meta.object-literal.key"
+            ],
+            "settings":{
+                "foreground": "$$defaultForeground"
+            }
+        },
+        {
             "name": "'(' ')' ';' '{' '}' '[' ']' '<' '>' '::'",
             "scope": [
                 "punctuation.definition.method-parameters",
