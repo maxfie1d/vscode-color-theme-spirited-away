@@ -126,10 +126,10 @@
         },
         {
             "name": "Object keys",
-            "scope":[
+            "scope": [
                 "meta.object-literal.key"
             ],
-            "settings":{
+            "settings": {
                 "foreground": "$$defaultForeground"
             }
         },
@@ -147,6 +147,8 @@
                 "punctuation.definition.end.bracket.square",
                 "punctuation.definition.binding-pattern.object",
                 "punctuation.definition.bracket.curly",
+                "punctuation.definition.string",
+                "punctuation.definition.metadata",
                 "punctuation.separator.comma",
                 "punctuation.terminator",
                 "meta.method.identifier",
@@ -482,6 +484,20 @@
             "scope": "beginning.punctuation.definition.quote",
             "settings": {
                 "foreground": "$green"
+            }
+        },
+        {
+            "name": "Markdown fenced code block",
+            "scope": "punctuation.definition.markdown",
+            "settings": {
+                "foreground": "$$punctuationColor"
+            }
+        },
+        {
+            "name": "Markdown separator",
+            "scope": "meta.separator.markdown",
+            "settings": {
+                "foreground": "$trivialGray"
             }
         }
     ],
