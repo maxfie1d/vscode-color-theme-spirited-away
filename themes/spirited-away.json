@@ -149,6 +149,7 @@
                 "punctuation.definition.bracket.curly",
                 "punctuation.definition.string.begin.markdown",
                 "punctuation.definition.string.end.markdown",
+                "punctuation.definition.attribute-selector",
                 "punctuation.definition.metadata",
                 "punctuation.definition.dictionary",
                 "punctuation.definition.array",
@@ -289,6 +290,13 @@
             ],
             "settings": {
                 "foreground": "$$defaultForeground"
+            }
+        },
+        {
+            "name": "Attribute selector",
+            "scope": "meta.attribute-selector",
+            "settings": {
+                "foreground": "$lightOrange"
             }
         },
         {
